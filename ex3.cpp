@@ -5,7 +5,9 @@ void Render()
   glClear(GL_COLOR_BUFFER_BIT);
 
   glLoadIdentity();
-  glRotatef(180.0f, 0.f, 0.f, 1.f);
+  glTranslatef(0.2f, 0.f, 0.f);
+  glRotatef(90.f, 0.f, 0.f, 1.f);
+  glScalef(1.5f, 1.5f, 1.5f);
 
   glBegin(GL_TRIANGLES);
   
